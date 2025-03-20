@@ -18,7 +18,7 @@
 
 // ! controller - update.js
 
-const { User } = require("../../models/user");
+const { User } = require("../../models/user.model.js");
 
 const update = async (req, res) => {
   const { name: newName } = req.body;
