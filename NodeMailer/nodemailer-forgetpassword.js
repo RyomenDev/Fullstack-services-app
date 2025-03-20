@@ -1,8 +1,9 @@
-const express = require("express");
-const User = require("../models/User"); // Your user model
-const crypto = require("crypto");
-const bcrypt = require("bcryptjs");
-const nodemailer = require("nodemailer");
+import express from "express";
+import User from "./user.model.js";
+import crypto from "crypto";
+import bcrypt from "bcryptjs";
+import nodemailer from "nodemailer";
+import conf from "../conf/conf.js";
 
 const router = express.Router();
 
