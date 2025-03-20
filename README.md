@@ -6,14 +6,14 @@ A full-stack application integrating various services such as **Nodemailer** for
 
 ## Features
 
-✅ User Authentication with JWT (Login, Signup, Password Reset)
-✅ Nodemailer for email notifications and verification
-✅ Cloudinary integration for secure image storage
-✅ Multer for handling file uploads (profile images, documents, etc.)
-✅ MongoDB with Mongoose for database management
-✅ React.js with Redux for frontend state management
-✅ Express.js for building RESTful APIs
-✅ Tailwind CSS for modern UI styling
+- ✅ User Authentication with JWT (Login, Signup, Password Reset)
+- ✅ Nodemailer for email notifications and verification
+- ✅ Cloudinary integration for secure image storage
+- ✅ Multer for handling file uploads (profile images, documents, etc.)
+- ✅ MongoDB with Mongoose for database management
+- ✅ React.js with Redux for frontend state management
+- ✅ Express.js for building RESTful APIs
+- ✅ Tailwind CSS for modern UI styling
 
 ## Tech Stack
 
@@ -21,7 +21,7 @@ A full-stack application integrating various services such as **Nodemailer** for
 - **Backend:** Node.js, Express.js, MongoDB, Mongoose
 - **Services:** Nodemailer, Cloudinary, Multer, JWT
 
-   ```env
+   <!-- ```env
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret
    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
@@ -29,7 +29,7 @@ A full-stack application integrating various services such as **Nodemailer** for
    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
    EMAIL_USER=your_email@example.com
    EMAIL_PASS=your_email_password
-   ```
+   ``` -->
 
 
 ## Usage
