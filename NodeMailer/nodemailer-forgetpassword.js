@@ -59,7 +59,8 @@ router.post("/reset-password/:token", async (req, res) => {
       return res.status(400).json({ message: "Invalid or expired token" });
 
     // Hash the new password and save
-    user.password = await bcrypt.hash(password, 10);
+    // user.password = await bcrypt.hash(password, 10);
+    user.password = password; // Set new password (pre-save hook will hash it)
     user.resetPasswordToken = undefined;
     user.resetPasswordExpires = undefined;
     await user.save();
